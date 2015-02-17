@@ -256,6 +256,21 @@ typedef enum _keycode_t {
 	NKCODE_EXT_MOUSEWHEEL_DOWN = 1009
 } keycode_t;
 
+enum DualShock4Controller {
+	DS4_BUTTON_L3 = 400,
+	DS4_BUTTON_R3 = 401,
+
+	DS4_BUTTON_OPTIONS = 402,
+	DS4_BUTTON_SHARE = 403,
+	DS4_BUTTON_PAD = 404,
+	DS4_BUTTON_PS = 405,
+
+	DS4_BUTTON_CROSS = 406,
+	DS4_BUTTON_CIRCLE = 407,
+	DS4_BUTTON_SQUARE = 408,
+	DS4_BUTTON_TRIANGLE = 409,
+};
+
 enum AndroidJoystickAxis {
 	// Field descriptor #15 I
 	JOYSTICK_AXIS_X = 0,
